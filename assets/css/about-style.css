@@ -76,9 +76,13 @@ html, body {
     width: 40px;
 }
 
-.drawing:hover {
+/* .drawing:hover {
     transform: scale(1.1);
     cursor: pointer;
+} */
+
+.drawing:hover {
+    cursor: crosshair;
 }
 
 .logo {
@@ -95,6 +99,11 @@ html, body {
 .hello-btn {
     width: 250%;
     height: auto;
+}
+
+.hello-btn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .bible {
@@ -115,6 +124,11 @@ html, body {
 .heart {
     width: 200%;
     height: auto;
+}
+
+.heart:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .plane {
