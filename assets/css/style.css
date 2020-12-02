@@ -115,3 +115,7 @@ html, body {
     height: 5%;
 }
 
+a {
+    text-decoration: none;
+}
+
