@@ -1,0 +1,198 @@
+html, body {
+    background-image: linear-gradient(#78d2bd, #9edecf);
+    background-attachment: fixed;
+    color: #1d1d1d;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+}
+
+h1 {
+    margin: 50px 0px 30px 100px;
+
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+#pictures {
+    position: relative;
+    width: 1000px;
+    height: 480px;
+    margin-left: 225px;
+}
+
+.pic {
+    width: 100%;
+    vertical-align: top;
+}
+
+#pictures img {
+    width: 300px;
+    height: auto;
+    margin: 10px 10px;
+    transition: 0.5s all ease-in-out;
+}
+
+#pictures img:hover {
+    cursor: pointer;
+    transform: scale(1.12);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hidden {
+    display: none;
+}
+#lightbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.lightbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+.lightbox img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.lightbox .caption {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* nav bar and media bar style */
+.nav-item {
+    text-decoration: none;
+    width: 40px;
+}
+
+.drawing:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.logo {
+    width: 150%;
+    height: auto;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.hello-btn {
+    width: 250%;
+    height: auto;
+}
+
+.bible {
+    width: 160%;
+    height: auto;
+}
+
+.laptop {
+    width: 200%;
+    height: auto;
+}
+
+.shoe {
+    width: 150%;
+    height: auto;
+}
+
+.heart {
+    width: 200%;
+    height: auto;
+}
+
+.plane {
+    width: 200%;
+    height: auto;
+}
+
+.phone {
+    width: 110%;
+    height: auto;
+}
+
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 40px;
+}
+
+.greeting {
+    font-size: 27px;
+    margin-top: 0px;
+}
+
+.media-item {
+    text-decoration: none;
+    width: 40px;
+    margin: 0px 30px 0px 30px;
+}
+
+.media-bar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* padding-right: 40px; */
+    padding: 50px 40px 0px 0px;
+}
+
+.media-pics:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.linkedin {
+    width: 65%;
+    height: auto;
+}
+
+.instagram {
+    width: 75%;
+    height: auto;
+}
+
+.facebook {
+    width: 40%;
+    height: auto;
+}
+
+.mail {
+    width: 85%;
+    height: auto;
+}
+
+.phone-logo {
+    width: 50%;
+    height: auto;
+}
+
+#phone-number {
+    width: 25%;
+    height: auto;
+}

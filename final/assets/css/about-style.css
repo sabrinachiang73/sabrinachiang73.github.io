@@ -1,0 +1,207 @@
+html, body {
+    background-image: linear-gradient(#bbbeff, #eeefff);
+    background-attachment: fixed;
+    color: #1d1d1d;
+    font-family: 'PT Serif', serif;
+    font-size: 19px;
+}
+
+.btn {
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: #1d1d1d;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #bbbeff;
+    border: 1px solid #1d1d1d;
+    cursor: pointer;
+    border-radius: 38px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 8px -8px #2a2a2a;
+}
+
+.btn:hover {
+    background-color: #a2a6ff;
+
+}
+
+#selfie {
+    width: 100%;
+    height: 100%;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 20px;
+    /* border: 2px solid #333;
+    background-color: #dfdfdf; */
+    
+}
+
+.flexbox-item-1 {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+.flexbox-item-2 {
+    flex-grow: 1;
+    flex-basis:0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-right: 40px;
+    padding-top: 20px;
+    
+}
+
+/* nav bar and media bar style */
+.nav-item {
+    text-decoration: none;
+    width: 40px;
+}
+
+.drawing:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.logo {
+    width: 150%;
+    height: auto;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.hello-btn {
+    width: 250%;
+    height: auto;
+}
+
+.bible {
+    width: 160%;
+    height: auto;
+}
+
+.laptop {
+    width: 200%;
+    height: auto;
+}
+
+.shoe {
+    width: 150%;
+    height: auto;
+}
+
+.heart {
+    width: 200%;
+    height: auto;
+}
+
+.plane {
+    width: 200%;
+    height: auto;
+}
+
+.phone {
+    width: 110%;
+    height: auto;
+}
+
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 40px;
+}
+
+.greeting {
+    font-size: 27px;
+    margin-top: 0px;
+}
+
+.media-item {
+    text-decoration: none;
+    width: 40px;
+    margin: 0px 30px 0px 30px;
+}
+
+.media-bar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+.media-pics:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.linkedin {
+    width: 65%;
+    height: auto;
+}
+
+.instagram {
+    width: 75%;
+    height: auto;
+}
+
+.facebook {
+    width: 40%;
+    height: auto;
+}
+
+.mail {
+    width: 85%;
+    height: auto;
+}
+
+.phone-logo {
+    width: 50%;
+    height: auto;
+}
+
+#phone-number {
+    width: 25%;
+    height: auto;
+}
+
+
+.link {
+    text-decoration: none;
+    color: #1d1d1d;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300px;
+
+}
+
+span:hover {
+    font-style: italic;
+    /* color: #4D7DFF; */
+    color: #0045ff;
+    font-size: 19px;
+}
+

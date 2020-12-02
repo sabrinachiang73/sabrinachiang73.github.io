@@ -1,0 +1,121 @@
+html, body {
+    background-image: linear-gradient(#FFFBA2, #FFFDD5);
+    background-attachment: fixed;
+    color: #1d1d1d;
+}
+
+.middle-blob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#hello {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 270px;
+    line-height: 160px;
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+#hello:hover {
+    /* cursor: pointer; */
+    /* color: #505050; */
+    /* transform: scale(1.05); */
+    /* transition-duration: .2s; */
+    transform: translateY(-10px);
+    animation: bounce 0.25s cubic-bezier(0.42, 0, 0.7, 0.5) 0s infinite alternate;
+    cursor: pointer;
+}
+
+#Sabrina {
+    font-family: 'Balsamiq Sans', cursive;;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    
+}
+
+#typing {
+    font-family: 'PT Serif', serif;
+    color: #2a2a2a;
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#bible {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    bottom: 430px;
+    left: 100px;
+}
+
+.pictures:hover {
+    transform: translateY(-10px);
+    animation: bounce 0.25s cubic-bezier(0.42, 0, 0.7, 0.5) 0s infinite alternate;
+    cursor: pointer;
+    
+}
+
+#laptop {
+    width: 15%;
+    height: 15%;
+    position: relative;
+    bottom: 570px;
+    left: 430px;
+    
+}
+
+#shoe-surf {
+    width: 15%;
+    height: 15%;
+    position: relative;
+    bottom: 450px;
+    left: 650px;
+}
+
+#heart {
+    width: 15%;
+    height: 15%;
+    position: relative;
+    bottom: 100px;
+    right: 430px;
+}
+
+#plane {
+    width: 15%;
+    height: 15%;
+    position: relative;
+    right: 190px;
+}
+
+#phone {
+    width: 7.5%;
+    height: 6.5%;
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+}
+
+@keyframes bounce {
+    100% {transform: translateY(10px);}
+}
+
+.bible {
+    width: 5%;
+    height: 5%;
+}
+
