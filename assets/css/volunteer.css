@@ -7,7 +7,7 @@ html, body {
 }
 
 h1 {
-    margin: 50px 0px 30px 100px;
+    margin: 50px 0px 30px 160px;
 
 }
 
@@ -121,6 +121,11 @@ h1 {
 .laptop {
     width: 200%;
     height: auto;
+}
+
+.laptop:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .shoe {

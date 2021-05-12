@@ -76,7 +76,12 @@ html, body {
     position: relative;
     bottom: 570px;
     left: 430px;
-    
+    cursor: pointer;
+}
+
+#laptop:hover {
+    transform: translateY(-10px);
+    animation: bounce 0.25s cubic-bezier(0.42, 0, 0.7, 0.5) 0s infinite alternate;
 }
 
 #shoe-surf {

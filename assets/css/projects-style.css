@@ -1,64 +1,9 @@
 html, body {
-    background-image: linear-gradient(#bbbeff, #eeefff);
+    background-image: linear-gradient(#ffd1dc, #ffebef);
     background-attachment: fixed;
     color: #1d1d1d;
     font-family: 'PT Serif', serif;
     font-size: 19px;
-}
-
-.btn {
-    text-decoration: none;
-    width: 150px;
-    height: 50px;
-    font-family: 'Open Sans', sans-serif;
-    color: #1d1d1d;
-    font-size: 18px;
-    letter-spacing: 1px;
-    background-color: #bbbeff;
-    border: 1px solid #1d1d1d;
-    cursor: pointer;
-    border-radius: 38px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 8px 8px -8px #2a2a2a;
-}
-
-.btn:hover {
-    background-color: #a2a6ff;
-
-}
-
-#selfie {
-    width: 100%;
-    height: 100%;
-}
-
-.flexbox-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 80px;
-    margin-left: 80px;
-}
-
-.flexbox-item {
-    width: 200px;
-    margin: 20px;
-    /* border: 2px solid #333;
-    background-color: #dfdfdf; */
-    
-}
-
-.flexbox-item-1 {
-    flex-grow: 2;
-    flex-basis: 0;
-}
-
-.flexbox-item-2 {
-    flex-grow: 1;
-    flex-basis:0;
 }
 
 .buttons {
@@ -162,7 +107,7 @@ html, body {
 .media-item {
     text-decoration: none;
     width: 40px;
-    margin: 0px 30px 0px 30px;
+    margin: 50px 30px 0px 30px;
 }
 
 .media-bar {
@@ -224,3 +169,52 @@ span:hover {
     font-size: 19px;
 }
 
+
+/* stuff that is unique to this page */
+
+.middle-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.image-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 55px; 
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+
+.pics {
+    width: 300px;
+    height: 300px;
+}
+
+.pics:hover {
+    transform: scale(1.05);
+    transition-duration: .6s;
+}
+
+.image-card-text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.image-card-text:hover {
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    margin: 50px 0px 30px 130px;
+
+}
